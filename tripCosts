@@ -5,11 +5,15 @@ Function Main() returns nothing
    float milesPerGallon
    float dollarsPerGallon
 
+   //gets miles pergallon for the veichle
    milesPerGallon = Get next input
+   //gets price of gas
    dollarsPerGallon = Get next input
-
+   // cost for 10 miles
    Put DrivingCost(10.0, milesPerGallon, dollarsPerGallon) to output with 2 decimal places
    Put " " to output
+   //cost for 50 miles
    Put DrivingCost(50.0, milesPerGallon, dollarsPerGallon) to output with 2 decimal places
    Put " " to output
+   //cost for 400 miles
    Put DrivingCost(400.0, milesPerGallon, dollarsPerGallon) to output with 2 decimal places
